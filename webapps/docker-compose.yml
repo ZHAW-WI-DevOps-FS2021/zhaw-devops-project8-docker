@@ -7,9 +7,9 @@ services:
     container_name: "mysql"
     image: mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=9876
+      - MYSQL_ROOT_PASSWORD=7777
       - MYSQL_USER=admin
-      - MYSQL_PASSWORD=9876
+      - MYSQL_PASSWORD=7777
     ports:
       - '3306:3306'
     volumes:
